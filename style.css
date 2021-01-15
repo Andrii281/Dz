@@ -1,0 +1,79 @@
+.charBlock .controls{
+    position: static;
+    text-align: center;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.controls span{
+    font-size: 20px;
+}
+
+.controls .GetInfoBut{
+    border-radius: 20% ;
+    color: red;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    height: 40px;
+}
+
+.controls .GetInfoBut:focus{
+    outline: none;
+}
+
+.controls .textField{
+    text-align: center;
+    font-size: 20px;
+    width: 25px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.controls .textField:focus{
+    outline: none;
+}
+
+.charList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center; 
+}
+
+.charInfo{
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 4px black;
+    margin: 50px;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.planetBlock{
+
+    margin: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+
+.planetBlock h2{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.planetBlock .planetList{
+    width: 100%;
+    text-align: center;
+}
+
+.planetBlock .nextPrevBut{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70px;
+    border: 3px solid red;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.planetBlock .nextPrevBut:focus{
+    outline: none;
+}
