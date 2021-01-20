@@ -77,3 +77,8 @@ function next(){
         getPlanets(pageNum).then(planets => displayPlanets(planets, pageNum));
     }
 }
+
+
+
+const now = new Date();
+console.log(now.getDay());
